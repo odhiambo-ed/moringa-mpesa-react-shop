@@ -10,7 +10,30 @@ function App() {
 
       </div>
       <div className="header__nav">
-        
+        <div className="nav__item">
+          <span className="item__lineOne">
+            Hi Guest
+          </span>
+          <span className="item__lineTwo">
+            Sign In
+          </span>         
+        </div>
+        <div className="nav__item">
+          <span className="item__lineOne">
+            Hi Guest
+          </span>
+          <span className="item__lineTwo">
+            Sign In
+          </span>
+        </div>
+        <div className="nav__item">
+          <span className="item__lineOne">
+            Hi Guest
+          </span>
+          <span className="item__lineTwo">
+            Sign In
+          </span>
+        </div>
       </div>
     </div>
   );
