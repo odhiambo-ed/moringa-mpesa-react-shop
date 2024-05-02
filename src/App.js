@@ -20,18 +20,18 @@ function App() {
         </div>
         <div className="nav__item">
           <span className="item__lineOne">
-            Hi Guest
+            Your
           </span>
           <span className="item__lineTwo">
-            Sign In
+            Shop
           </span>
         </div>
         <div className="nav__item">
           <span className="item__lineOne">
-            Hi Guest
+            Basket
           </span>
           <span className="item__lineTwo">
-            Sign In
+            1
           </span>
         </div>
       </div>
