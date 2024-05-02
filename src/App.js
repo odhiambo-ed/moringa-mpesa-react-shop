@@ -1,4 +1,5 @@
 import './App.css';
+import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 
 function App() {
   return (
@@ -28,7 +29,7 @@ function App() {
         </div>
         <div className="nav__item">
           <span className="item__lineOne">
-            Basket
+            <AddShoppingCartIcon />
           </span>
           <span className="item__lineTwo">
             1
