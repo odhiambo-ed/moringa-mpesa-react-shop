@@ -1,5 +1,5 @@
 import React from 'react'
-import 'cartItems.css'
+import './cart_items.css'
 
 function index(id, title, price, rating, image) {
   return (
