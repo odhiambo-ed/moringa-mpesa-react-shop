@@ -1,6 +1,6 @@
 import React from 'react'
-import 'cart.css'
-import { Camera } from '../../images/p3.png'
+import './cart.css'
+import Camera from '../../images/p3.png'
 import CartItems from '../CartItems'
 import CartTotal from '../CartTotal'
 
