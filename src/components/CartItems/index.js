@@ -3,23 +3,25 @@ import './cart_items.css'
 
 function index(id, title, price, rating, image) {
   return (
-      <div className="cart__items">
-          <div className="product__info">
-              <p>{title}</p>
-              <p className="product__price">
-                  <small>Ksh</small>
+      <div className="checkoutProduct">
+          <img src={image} alt="" className="checkoutProduct__image" />
+
+          <div className="checkoutProduct__info">
+              <p className="checkoutProduct__title">{title}
+              </p>
+              <p className="checkoutProduct__price">
+                  <small>$</small>
                   <strong>{price}</strong>
               </p>
-              <div className="product__rating">
+              <div className="checkoutProduct__rating">
                   {Array(rating)
                       .fill()
                       .map((_, i) => (
                           <p>⭐</p>
                       ))}
               </div>
+              <button>Remove from Basket</button>
           </div>
-          <img src={image} alt="" className="product__image" />
-          <button>Add to Cart</button>
       </div>
   )
 }
