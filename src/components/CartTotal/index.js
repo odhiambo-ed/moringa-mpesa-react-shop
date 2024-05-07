@@ -1,5 +1,5 @@
 import React from 'react'
-import 'cart_total.css'
+import './cart_total.css'
 import CurrencyFormat from 'react-currency-format'
 
 function index() {
